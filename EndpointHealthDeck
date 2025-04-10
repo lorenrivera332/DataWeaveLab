@@ -1,0 +1,23 @@
+
+---
+
+### **2. 22_EndpointHealthDeck**  
+**Description:**  
+A dashboard-style tracker for checking the health and latency of many APIs at once.
+
+#### **README.md**
+```markdown
+# EndpointHealthDeck - Batch API Health Monitor
+
+EndpointHealthDeck helps monitor multiple APIs in real-time and logs latency, availability, and errors.
+
+## Features
+- Tabular CLI output  
+- Retry + timeout handling  
+- Export results to JSON  
+
+## Usage
+```bash
+git clone https://github.com/your-username/22_EndpointHealthDeck.git
+cd 22_EndpointHealthDeck
+python monitor.py
