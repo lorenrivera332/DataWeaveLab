@@ -1,0 +1,23 @@
+
+---
+
+### **3. 22_LogEchoMatrix**  
+**Description:**  
+Log parsing utility that highlights repeating errors and frequent log patterns.
+
+#### **README.md**
+```markdown
+# LogEchoMatrix - Log Repetition & Pattern Analyzer
+
+LogEchoMatrix detects high-frequency log lines, keyword clusters, and alert storms.
+
+## Features
+- Repetition summary  
+- Burst detection  
+- CLI-friendly  
+
+## Usage
+```bash
+git clone https://github.com/your-username/22_LogEchoMatrix.git
+cd 22_LogEchoMatrix
+python analyze.py logs/system.log
